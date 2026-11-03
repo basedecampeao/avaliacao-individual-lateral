@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow">
+<title>Avaliação do Atleta · Formando Laterais</title>
+<meta name="description" content="Avaliação do atleta do Formando Laterais. Base de Campeão x Insight Analysis.">
+<link rel="icon" type="image/png" href="favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800;900&family=Barlow:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="wrap">
+  <header>
+    <img src="logo-base-de-campeao.png" alt="Base de Campeão">
+    <div class="sep"></div>
+    <img src="logo-insight-analysis.png" alt="Insight Analysis">
+  </header>
+
+  <div id="formScreen">
+    <div class="hero">
+      <div class="kicker"><span></span>Formando Laterais · Avaliação do atleta</div>
+      <h1>Analise o jogo.<br><em>Responda como lateral.</em></h1>
+      <p class="lead">Você vai assistir a 3 vídeos de situações reais da posição.<br>Depois de cada um, responda com as suas palavras.</p>
+      <p class="lead"><strong>Não existe resposta certa ou errada.</strong><br>O que a gente quer ver é como você enxerga o jogo.</p>
+    </div>
+
+    <div class="steps">
+      <div class="step"><b>VÍDEO 1</b><span>1 contra 1 defendendo</span></div>
+      <div class="step"><b>VÍDEO 2</b><span>Gols sofridos</span></div>
+      <div class="step"><b>VÍDEO 3</b><span>Cruzamento</span></div>
+    </div>
+
+    <form id="activityForm">
+      <input type="hidden" name="_subject" value="Avaliação do atleta · Formando Laterais">
+
+      <div class="block">
+        <div class="block-num">PRIMEIRO</div>
+        <h2>Quem é você</h2>
+        <div class="field">
+          <label>Nome completo <span class="req">*</span></label>
+          <input type="text" name="Nome completo" autocomplete="name" required>
+        </div>
+      </div>
+
+      <div class="divider"></div>
+
+      <div class="block">
+        <div class="block-num">VÍDEO 1</div>
+        <h2>1 contra 1 defendendo</h2>
+        <p class="block-sub">Assista ao vídeo inteiro antes de responder.<br>Preste atenção na postura, na distância e no momento de entrar na marcação.</p>
+        <div class="video" data-video="1"></div>
+
+        <div class="field">
+          <label>O que você faria de diferente nesses lances? <span class="req">*</span></label>
+          <textarea name="Vídeo 1 · O que faria de diferente" required></textarea>
+        </div>
+        <div class="field">
+          <label>Em que momento o duelo foi decidido? <span class="opt">(opcional)</span>
+            <span class="hint">O que o lateral poderia ter feito antes de o ponta receber a bola?</span></label>
+          <textarea name="Vídeo 1 · Momento em que o duelo foi decidido"></textarea>
+        </div>
+        <div class="field">
+          <label>Quando você dá o bote e quando segura a marcação? <span class="opt">(opcional)</span>
+            <span class="hint">Qual é o seu critério para decidir entre os dois?</span></label>
+          <textarea name="Vídeo 1 · Critério bote ou segurar"></textarea>
+        </div>
+      </div>
+
+      <div class="divider"></div>
+
+      <div class="block">
+        <div class="block-num">VÍDEO 2</div>
+        <h2>Gols sofridos</h2>
+        <p class="block-sub">Assista a todos os gols.<br>Volte no início de cada lance e procure onde ele começou a ser perdido.</p>
+        <div class="video" data-video="2"></div>
+
+        <div class="field">
+          <label>O que você faria de diferente em cada um desses lances? <span class="req">*</span></label>
+          <textarea name="Vídeo 2 · O que faria de diferente" required></textarea>
+        </div>
+        <div class="field">
+          <label>Qual foi o primeiro momento do lance em que o gol ainda podia ser evitado? <span class="opt">(opcional)</span></label>
+          <textarea name="Vídeo 2 · Primeiro momento evitável"></textarea>
+        </div>
+        <div class="field">
+          <label>Esses gols aconteceram por falta de qualidade ou por falta de leitura? <span class="opt">(opcional)</span>
+            <span class="hint">Explique o que você viu.</span></label>
+          <textarea name="Vídeo 2 · Qualidade ou leitura"></textarea>
+        </div>
+      </div>
+
+      <div class="divider"></div>
+
+      <div class="block">
+        <div class="block-num">VÍDEO 3</div>
+        <h2>Cruzamento</h2>
+        <p class="block-sub">Assista ao vídeo e observe o que o lateral tem à frente antes de decidir.<br>Foque no que ele olha e no que ele escolhe.</p>
+        <div class="video" data-video="3"></div>
+
+        <div class="field">
+          <label>Por que o lateral tomou a decisão de cruzar? <span class="req">*</span></label>
+          <textarea name="Vídeo 3 · Por que decidiu cruzar" required></textarea>
+        </div>
+        <div class="field">
+          <label>O que ele viu na área para fazer esse cruzamento? <span class="req">*</span></label>
+          <textarea name="Vídeo 3 · O que viu na área" required></textarea>
+        </div>
+        <div class="field">
+          <label>Que tipo de cruzamento ele fez? Você faria o mesmo? <span class="req">*</span></label>
+          <textarea name="Vídeo 3 · Tipo de cruzamento" required></textarea>
+        </div>
+        <div class="field">
+          <label>Existia uma opção melhor do que cruzar naquele momento? <span class="opt">(opcional)</span>
+            <span class="hint">Se sim, qual?</span></label>
+          <textarea name="Vídeo 3 · Opção melhor"></textarea>
+        </div>
+      </div>
+
+      <div class="divider"></div>
+
+      <div class="block">
+        <div class="block-num">POR ÚLTIMO</div>
+        <h2>O que tem te incomodado</h2>
+        <p class="block-sub">Aqui a gente quer entender o seu momento.<br>Seja sincero. Isso ajuda a gente a trabalhar o que realmente importa pra você.</p>
+        <div class="field">
+          <label>Qual a maior dificuldade que você sente nos jogos? <span class="req">*</span></label>
+          <textarea name="Maior dificuldade nos jogos" required></textarea>
+        </div>
+        <div class="field">
+          <label>E nos treinos, o que tem te incomodado? <span class="req">*</span></label>
+          <textarea name="Maior dificuldade nos treinos" required></textarea>
+        </div>
+      </div>
+
+      <button type="submit" class="submit-btn" id="submitBtn">Enviar avaliação</button>
+      <div class="status" id="statusBox"></div>
+    </form>
+  </div>
+
+  <div class="success-screen" id="successScreen">
+    <div class="check">✓</div>
+    <h2>Avaliação enviada</h2>
+    <p>Recebemos as suas respostas.<br>Elas vão direcionar o que a gente vai trabalhar com você.<br>Nos vemos no próximo encontro.</p>
+  </div>
+
+  <footer>
+    <p>Base de Campeão x Insight Analysis · Formando Laterais</p>
+  </footer>
+</div>
+
+<script src="config.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
